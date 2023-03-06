@@ -1,0 +1,130 @@
+@media(max-width:1455px){
+    .conteiner{
+        width: 1104px;
+    }
+    .sobre-web-design figcaption img{
+        width:730px ;
+        right: 40px;
+    }
+
+ }
+ @media(max-width:1305px){
+    .conteiner{
+        width: 1084px;
+    }
+    .sobre-web-design figcaption img{
+        width:730px ;
+        right: 40px;
+    
+    }
+ }
+ @media(max-width:1175px){
+    .conteiner{
+        width: 1004px;
+    }
+    .sobre-web-design figcaption img{
+        width:1000px ;
+        right: 40px;
+    
+    }
+    .sobre-web-design article{
+        margin: 8px 0;
+        width: 600px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    body{
+        background-position: left top;
+        background-color:#b1f4ff; ;
+    }
+    header nav{
+        margin: 50px 0 40px 0;
+    }
+    footer .row {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+ }
+ @media(max-width:1038px){
+    .conteiner{
+        width: 900px;
+    }
+    .sobre-web-design figcaption img{
+        width:900px ;
+        right: 40px;
+    
+    }
+    .sobre-web-design article{
+        margin: 8px 0;
+        width: 600px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    body{
+        background-position: left top;
+        background-color:#b1f4ff; ;
+    }
+    header nav{
+        margin: 50px 0 40px 0;
+    }
+    footer .row {
+        flex-direction: row;
+        justify-content: center;
+    }
+ }
+ @media(max-width:950px){
+    .conteiner{
+        width: 700px;
+    }
+    .sobre-web-design figcaption img{
+        width:700px ;
+        right: 40px;
+    
+    }
+    .sobre-web-design article{
+        margin: 8px 0;
+        width: 600px;
+    }
+    .sobre-web-design article h1,h2{
+        font-size: 100px;
+        margin: 20px 0 10px 0;
+    }
+    .sobre-web-design article p{
+        margin: 40px 0 50px;
+        font-size: 26px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    body{
+        background-position: left top;
+        background-color:#b1f4ff; ;
+    }
+    header nav{
+        margin: 50px 0 40px 0;
+    }
+    footer .row {
+        flex-direction: row;
+        justify-content: center;
+    }
+    header nav{
+        background: #57d3aca3;
+        width: 600px;
+        padding: 10px 0 30px;
+        border-radius: 30px;
+        box-shadow: 0px 7px 34px rgb(37, 36, 36);
+
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin: 9px 0;
+    }
+    header a{
+        color: white;
+    }
+ }

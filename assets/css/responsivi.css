@@ -1,0 +1,14 @@
+/*criando responsividade*/
+@media(max-width:1455px){
+   body{
+        background-size: 300px;    
+    }
+   .sobre-web-design figcaption img{
+        width:830px ;
+        right: 40px;
+    }
+    .sobre-web-design article{
+        margin-top: 102px;
+        width: 260px;
+    }
+}
