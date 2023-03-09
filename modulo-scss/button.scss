@@ -1,0 +1,28 @@
+@import'variaveis.scss';
+.btn{
+    width: 200px;
+    padding: 10px 0;
+    background: none;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    margin: 10px;
+    @mixin button-style($backgrond, $color) {
+        background: $backgrond;
+        color: $color;
+        &:hover{
+            background: grayscale($backgrond);
+        }
+    }
+    &.btn-laranja{
+        @include button-style( $color-laranja, white )
+    }
+    &.btn-roxo{
+        @include button-style( $color-roxo, white )
+    }
+    &.btn-amarelo{
+        @include button-style( $color-amarelo,black )
+    }
+}
+
+/*inves de usar o exren para herdar os elementos podemoes usar o @include para incluir na base do projeto*/
