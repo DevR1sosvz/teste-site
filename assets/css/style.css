@@ -159,7 +159,7 @@ body {
 }
 @media (max-width: 920px) {
   .conteiner {
-    width: 700px;
+    width: 450px;
   }
   .conteiner.sobre-web-design figcaption img {
     width: 480px;
@@ -183,6 +183,24 @@ body {
     flex-direction: row;
     justify-content: center;
   }
+  header nav {
+    background: rgba(87, 211, 172, 0.6392156863);
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 7px 34px rgb(37, 36, 36);
+  }
+  header nav ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+  header section img{
+      width: 650px;
+  }
+  header nav ul li {
+    margin: 9px 0;
+  }
+
 }
 @media (max-width: 780px) {
   .conteiner {
@@ -230,7 +248,7 @@ body {
     justify-content: center;
   }
   header section img{
-      width: 450px;
+      width: 650px;
   }
   header nav ul li {
     margin: 9px 0;
