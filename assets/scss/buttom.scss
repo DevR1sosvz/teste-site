@@ -1,9 +1,10 @@
+@import'variaveis.scss';
 .btn{
     padding: 5px 20px;
-}
-.btn.btn-laranja{
-    background: #FF6633;
-    color: white;
-    border-radius: 28px;
-    padding: 13px;
+    &.btn-laranja{
+        background: $color-tercearia;
+        color: $color-branco;
+        border-radius: 28px;
+        padding: 13px;
+    }
 }

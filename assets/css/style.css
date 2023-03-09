@@ -6,27 +6,23 @@ header section {
   align-items: center;
   font-size: 23px;
 }
-
 header nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
 header nav ul li {
   margin: 0 19px;
 }
-
-a {
-  color: #3399CC;
+header a {
+  color: #3399cc;
 }
 
 .btn {
   padding: 5px 20px;
 }
-
 .btn.btn-laranja {
-  background: #FF6633;
+  background: #ff6633;
   color: white;
   border-radius: 28px;
   padding: 13px;
@@ -36,38 +32,30 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-
 .sobre-web-design article {
   margin-top: 102px;
   width: 300px;
 }
-
 .sobre-web-design article h1 {
   font-size: 90px;
   color: #333366;
 }
-
 .sobre-web-design article h2 {
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 14px;
   line-height: 100%;
 }
-
-.sobre-web-design figcaption img {
-  width: 830px;
-  right: 40px;
-}
-
 .sobre-web-design article p {
   margin: 40px 0 50px;
 }
-
-.sobre-web-design article h2,
-.sobre-web-design article p {
-  color: #3399CC;
+.sobre-web-design article h2, .sobre-web-design article p {
+  color: #3399cc;
 }
-
+.sobre-web-design article figcaption img {
+  width: 830px;
+  right: 40px;
+}
 .sobre-web-design a {
   font-size: 27px;
 }
@@ -76,7 +64,6 @@ footer ul li {
   margin: 19px 37px 0 0;
   align-items: center;
 }
-
 footer ul li img {
   width: 40px;
 }
@@ -138,7 +125,7 @@ body {
   .conteiner {
     width: 1084px;
   }
-  .sobre-web-design figcaption img {
+  .conteiner.sobre-web-design figcaption img {
     width: 730px;
     right: 40px;
   }
@@ -147,25 +134,25 @@ body {
   .conteiner {
     width: 1004px;
   }
-  .sobre-web-design figcaption img {
+  .conteiner.sobre-web-design figcaption img {
     width: 1000px;
     right: 40px;
   }
-  .sobre-web-design article {
+  .conteiner.sobre-web-design article {
     margin: 8px 0;
     width: 600px;
   }
-  .row {
+  .conteiner.sobre-web-design .row {
     flex-direction: column;
   }
-  body {
+  .conteiner.sobre-web-design body {
     background-position: left top;
     background-color: #b1f4ff;
   }
-  header nav {
+  .conteiner.sobre-web-design header nav {
     margin: 50px 0 40px 0;
   }
-  footer .row {
+  .conteiner.sobre-web-design footer .row {
     flex-direction: row;
     justify-content: center;
   }
@@ -174,25 +161,25 @@ body {
   .conteiner {
     width: 900px;
   }
-  .sobre-web-design figcaption img {
+  .conteiner.sobre-web-design figcaption img {
     width: 900px;
     right: 40px;
   }
-  .sobre-web-design article {
+  .conteiner.sobre-web-design article {
     margin: 8px 0;
     width: 600px;
   }
-  .row {
+  .conteiner.sobre-web-design .row {
     flex-direction: column;
   }
-  body {
+  .conteiner.sobre-web-design body {
     background-position: left top;
     background-color: #b1f4ff;
   }
-  header nav {
+  .conteiner.sobre-web-design header nav {
     margin: 50px 0 40px 0;
   }
-  footer .row {
+  .conteiner.sobre-web-design footer .row {
     flex-direction: row;
     justify-content: center;
   }

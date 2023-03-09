@@ -1,79 +1,104 @@
+@import'variaveis.scss';
 @media(max-width:1455px){
     .conteiner{
         width: 1104px;
     }
-    .sobre-web-design figcaption img{
-        width:730px ;
-        right: 40px;
-    }
+    .sobre-web-design{
+        figcaption{
+            img{
+                width:730px ;
+                right: 40px;
+            }
+        }
+    } 
+    
 
  }
- @media(max-width:1305px){
+@media(max-width:1305px){
     .conteiner{
         width: 1084px;
+        &.sobre-web-design{
+            figcaption{
+                img{
+                    width:730px ;
+                    right: 40px;
+                 }
+            }
+        }
     }
-    .sobre-web-design figcaption img{
-        width:730px ;
-        right: 40px;
-    
-    }
- }
+}
  @media(max-width:1175px){
     .conteiner{
         width: 1004px;
-    }
-    .sobre-web-design figcaption img{
-        width:1000px ;
-        right: 40px;
+        &.sobre-web-design{
+            figcaption{
+                img{
+                    width:1000px ;
+                    right: 40px;
+                }
+            }    
+        
+            article{
+                margin: 8px 0;
+                width: 600px;
+            }
     
+            .row{
+                flex-direction: column;
+            } 
+            body{
+                background-position: left top;
+                background-color:$color-quartenaria;
+            }
+            header{
+                nav{
+                    margin: 50px 0 40px 0;
+                }
+            }
+            footer{
+                .row {
+                    flex-direction: row;
+                    justify-content: center;
+                }
+            }
+        }                
     }
-    .sobre-web-design article{
-        margin: 8px 0;
-        width: 600px;
-    }
-    .row{
-        flex-direction: column;
-    }
-    body{
-        background-position: left top;
-        background-color:#b1f4ff; ;
-    }
-    header nav{
-        margin: 50px 0 40px 0;
-    }
-    footer .row {
-        flex-direction: row;
-        justify-content: center;
-    }
-    
- }
+}     
+
  @media(max-width:1038px){
     .conteiner{
         width: 900px;
+        &.sobre-web-design{
+            figcaption{
+                img{
+                    width:900px ;
+                    right: 40px;
+                }
+            }article{
+                margin: 8px 0;
+                width: 600px;
+            }
+            .row{
+                flex-direction: column;
+            }
+            body{
+                background-position: left top;
+                background-color:$color-quartenaria; ;
+            }
+            header{
+                nav{
+                    margin: 50px 0 40px 0;
+                }
+            }
+            footer{
+                .row {
+                    flex-direction: row;
+                    justify-content: center;
+                }
+            }
+        }
     }
-    .sobre-web-design figcaption img{
-        width:900px ;
-        right: 40px;
     
-    }
-    .sobre-web-design article{
-        margin: 8px 0;
-        width: 600px;
-    }
-    .row{
-        flex-direction: column;
-    }
-    body{
-        background-position: left top;
-        background-color:#b1f4ff; ;
-    }
-    header nav{
-        margin: 50px 0 40px 0;
-    }
-    footer .row {
-        flex-direction: row;
-        justify-content: center;
-    }
  }
  @media(max-width:950px){
     .conteiner{
@@ -101,7 +126,7 @@
     }
     body{
         background-position: left top;
-        background-color:#b1f4ff; ;
+        background-color:$color-quartenaria; ;
     }
     header nav{
         margin: 50px 0 40px 0;
