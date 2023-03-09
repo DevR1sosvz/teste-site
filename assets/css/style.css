@@ -132,10 +132,10 @@ body {
 }
 @media (max-width: 1175px) {
   .conteiner {
-    width: 1004px;
+    width: 900px;
   }
   .conteiner.sobre-web-design figcaption img {
-    width: 1000px;
+    width: 900px;
     right: 40px;
   }
   .conteiner.sobre-web-design article {
@@ -159,10 +159,10 @@ body {
 }
 @media (max-width: 1038px) {
   .conteiner {
-    width: 900px;
+    width: 700px;
   }
   .conteiner.sobre-web-design figcaption img {
-    width: 900px;
+    width: 700px;
     right: 40px;
   }
   .conteiner.sobre-web-design article {
@@ -186,10 +186,10 @@ body {
 }
 @media (max-width: 950px) {
   .conteiner {
-    width: 700px;
+    width: 500px;
   }
   .sobre-web-design figcaption img {
-    width: 700px;
+    width: 400px;
     right: 42px;
   }
   .sobre-web-design article {
@@ -230,7 +230,7 @@ body {
     justify-content: center;
   }
   header section img{
-      width: 150px;
+      width: 450px;
   }
   header nav ul li {
     margin: 9px 0;
