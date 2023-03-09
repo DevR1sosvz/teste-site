@@ -112,89 +112,89 @@ body {
   flex-direction: row;
 }
 
-@media (max-width: 1455px) {
+@media (max-width: 1400px) {
   .conteiner {
-    width: 1104px;
+    width: 1200px;
   }
   .sobre-web-design figcaption img {
     width: 730px;
     right: 40px;
   }
 }
-@media (max-width: 1305px) {
+@media (max-width: 1205px) {
   .conteiner {
     width: 1084px;
   }
   .conteiner.sobre-web-design figcaption img {
-    width: 730px;
+    width: 700px;
     right: 40px;
   }
 }
-@media (max-width: 1175px) {
+@media (max-width: 1000px) {
   .conteiner {
-    width: 900px;
+    width: 820px;
   }
   .conteiner.sobre-web-design figcaption img {
-    width: 900px;
+    width: 760px;
     right: 40px;
   }
   .conteiner.sobre-web-design article {
     margin: 8px 0;
-    width: 600px;
-  }
-  .conteiner.sobre-web-design .row {
-    flex-direction: column;
-  }
-  .conteiner.sobre-web-design body {
-    background-position: left top;
-    background-color: #b1f4ff;
-  }
-  .conteiner.sobre-web-design header nav {
-    margin: 50px 0 40px 0;
-  }
-  .conteiner.sobre-web-design footer .row {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-@media (max-width: 1038px) {
-  .conteiner {
-    width: 700px;
-  }
-  .conteiner.sobre-web-design figcaption img {
-    width: 700px;
-    right: 40px;
-  }
-  .conteiner.sobre-web-design article {
-    margin: 8px 0;
-    width: 600px;
-  }
-  .conteiner.sobre-web-design .row {
-    flex-direction: column;
-  }
-  .conteiner.sobre-web-design body {
-    background-position: left top;
-    background-color: #b1f4ff;
-  }
-  .conteiner.sobre-web-design header nav {
-    margin: 50px 0 40px 0;
-  }
-  .conteiner.sobre-web-design footer .row {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-@media (max-width: 950px) {
-  .conteiner {
     width: 500px;
   }
+  .conteiner.sobre-web-design .row {
+    flex-direction: column;
+  }
+  .conteiner.sobre-web-design body {
+    background-position: left top;
+    background-color: #b1f4ff;
+  }
+  .conteiner.sobre-web-design header nav {
+    margin: 50px 0 40px 0;
+  }
+  .conteiner.sobre-web-design footer .row {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 920px) {
+  .conteiner {
+    width: 700px;
+  }
+  .conteiner.sobre-web-design figcaption img {
+    width: 480px;
+    right: 40px;
+  }
+  .conteiner.sobre-web-design article {
+    margin: 8px 0;
+    width: 420px;
+  }
+  .conteiner.sobre-web-design .row {
+    flex-direction: column;
+  }
+  .conteiner.sobre-web-design body {
+    background-position: left top;
+    background-color: #b1f4ff;
+  }
+  .conteiner.sobre-web-design header nav {
+    margin: 50px 0 40px 0;
+  }
+  .conteiner.sobre-web-design footer .row {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 780px) {
+  .conteiner {
+    width: 390px;
+  }
   .sobre-web-design figcaption img {
-    width: 400px;
+    width: 320px;
     right: 42px;
   }
   .sobre-web-design article {
     margin: 8px 0;
-    width: 600px;
+    width: 410px;
   }
   .sobre-web-design article h1, h2 {
     font-size: 100px;
